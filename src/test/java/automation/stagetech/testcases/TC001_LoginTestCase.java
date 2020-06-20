@@ -20,9 +20,10 @@ public class TC001_LoginTestCase extends SetupClass
 	public void LoginwithValidCredentials()
 	{
 		LoginScreen ls= new LoginScreen(driver);
-		ls.enter_email("suraj.shinde@gloabalstep.com");
-		ls.enter_password("Test@007");
-		ls.click_signinButton();
+		ls.enter_password("checkvisiblie");
+		ls.view_password();
+		ls.click_remember_field();
+		ls.click_signUp();
 		
 	}
 	

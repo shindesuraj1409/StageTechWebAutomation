@@ -26,7 +26,7 @@ public class SetupClass
 	@AfterMethod
 	public void tearDown()
 	{
-		driver.quit();
+		//driver.quit();
 	}
 	
 	
