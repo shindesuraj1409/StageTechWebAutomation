@@ -2,24 +2,36 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16402" started-at="2020-06-19T16:07:52Z" finished-at="2020-06-19T16:08:09Z">
+  <suite name="Default suite" duration-ms="33571" started-at="2020-06-22T15:00:21Z" finished-at="2020-06-22T15:00:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16402" started-at="2020-06-19T16:07:52Z" finished-at="2020-06-19T16:08:09Z">
-      <class name="automation.stagetech.testcases.TC001_LoginTestCase">
-        <test-method status="PASS" signature="setup()[pri:0, instance:automation.stagetech.testcases.TC001_LoginTestCase@28864e92]" name="setup" is-config="true" duration-ms="11857" started-at="2020-06-19T21:37:52Z" finished-at="2020-06-19T21:38:04Z">
+    <test name="Default test" duration-ms="33571" started-at="2020-06-22T15:00:21Z" finished-at="2020-06-22T15:00:55Z">
+      <class name="automation.stagetech.testcases.TC002_ProfileUpdate">
+        <test-method status="PASS" signature="setup()[pri:0, instance:automation.stagetech.testcases.TC002_ProfileUpdate@6ad5c04e]" name="setup" is-config="true" duration-ms="15642" started-at="2020-06-22T20:30:21Z" finished-at="2020-06-22T20:30:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginwithValidCredentials()[pri:0, instance:automation.stagetech.testcases.TC001_LoginTestCase@28864e92]" name="LoginwithValidCredentials" duration-ms="3769" started-at="2020-06-19T21:38:04Z" finished-at="2020-06-19T21:38:08Z">
+        <test-method status="PASS" signature="UpdateUserName(java.lang.String, java.lang.String)[pri:0, instance:automation.stagetech.testcases.TC002_ProfileUpdate@6ad5c04e]" name="UpdateUserName" duration-ms="17903" started-at="2020-06-22T20:30:37Z" data-provider="setData" finished-at="2020-06-22T20:30:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suraj.shinde@globalstep.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@007]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginwithValidCredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.stagetech.testcases.TC001_LoginTestCase@28864e92]" name="tearDown" is-config="true" duration-ms="753" started-at="2020-06-19T21:38:08Z" finished-at="2020-06-19T21:38:09Z">
+        </test-method> <!-- UpdateUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.stagetech.testcases.TC002_ProfileUpdate@6ad5c04e]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-06-22T20:30:55Z" finished-at="2020-06-22T20:30:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- automation.stagetech.testcases.TC001_LoginTestCase -->
+      </class> <!-- automation.stagetech.testcases.TC002_ProfileUpdate -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

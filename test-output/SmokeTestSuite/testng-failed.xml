@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SmokeTestSuite]">
+  <test name="LoginTest">
+    <classes>
+      <class name="automation.stagetech.testcases.TC001_LoginTestCase"/>
+    </classes>
+  </test> <!-- LoginTest -->
+</suite> <!-- Failed suite [SmokeTestSuite] -->

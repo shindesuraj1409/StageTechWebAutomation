@@ -18,12 +18,14 @@ public class LoginScreen extends POM
 	@FindBy(xpath="//span[@class='MuiTypography-root MuiFormControlLabel-label MuiTypography-body1']") WebElement remember_field;
 	@FindBy(xpath="//a[@class='MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary']") WebElement forgot_password;
 	@FindBy(linkText="Sign Up") WebElement signUp;
+	@FindBy(xpath="//p[@class='MuiFormHelperText-root MuiFormHelperText-contained Mui-error' and text()='Please enter your email address']") public WebElement email_error;
+	@FindBy(xpath="//p[@class='MuiFormHelperText-root MuiFormHelperText-contained Mui-error' and text()='Please enter your password']") public WebElement password_error;
 	//Action methods
 	public void enter_email(String email)
 	{
 		email_field.click();
 		email_field.clear();
-		email_field.sendKeys("email");
+		email_field.sendKeys(email);
 	}
 	
 	public void enter_password(String password)
@@ -57,6 +59,7 @@ public class LoginScreen extends POM
 	{
 		signUp.click();
 	}
+	
 
 	
 }
