@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SmokeTestSuite">
-  <test name="LoginTest">
-    <classes>
-      <class name="automation.stagetech.testcases.TC001_LoginTestCase"/>
-    </classes>
-  </test> <!-- Test -->
+<suite name="StageTech">
+	<listeners>
+		<listener class-name="automation.stagetech.utilities.Reporting"></listener>
+	</listeners>
+	<test name="Chrome Test">
+		<parameter name="browser" value="chrome">
+		</parameter>
+		<classes>
+			<class name="automation.stagetech.testCases.TC001_LoginTestCase" />
+		</classes>
+	</test> <!-- Test -->
+	<!-- <test name="FireFox Test">
+		<parameter name="browser" value="firefox">
+		</parameter>
+		<classes>
+			<class name="automation.stagetech.testCases.TC002_ProfileUpdate" />
+		</classes>
+	</test> Test
+	<test name="ie Test"> <parameter name="browser" value="ie"> </parameter> 
+		<classes> <class name="automation.stagetech.testCases.TC002_ProfileUpdate"/> 
+		</classes> </test> Test
+	<test name="Edge Test">
+		<parameter name="browser" value="edge">
+		</parameter>
+		<classes>
+			<class name="automation.stagetech.testCases.TC002_ProfileUpdate" />
+		</classes>
+	</test> Test -->
 </suite> <!-- Suite -->
