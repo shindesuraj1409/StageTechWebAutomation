@@ -1,137 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="StageTech" duration-ms="180587" started-at="2020-06-27T18:45:27Z" finished-at="2020-06-27T18:48:27Z">
+  <suite name="Default suite" duration-ms="19717" started-at="2020-06-28T20:22:38Z" finished-at="2020-06-28T20:22:58Z">
     <groups>
     </groups>
-    <test name="Chrome Test" duration-ms="180587" started-at="2020-06-27T18:45:27Z" finished-at="2020-06-27T18:48:27Z">
-      <class name="automation.stagetech.testCases.TC001_LoginTestCase">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="setup" is-config="true" duration-ms="9806" started-at="2020-06-28T00:15:28Z" finished-at="2020-06-28T00:15:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="19717" started-at="2020-06-28T20:22:38Z" finished-at="2020-06-28T20:22:58Z">
+      <class name="automation.stagetech.testCases.TC004_CreateWork">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:automation.stagetech.testCases.TC004_CreateWork@5a39699c]" name="setUP" is-config="true" duration-ms="9501" started-at="2020-06-29T01:52:38Z" finished-at="2020-06-29T01:52:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginwithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="LoginwithValidCredentials" duration-ms="35279" started-at="2020-06-28T00:15:38Z" data-provider="LoginData" finished-at="2020-06-28T00:16:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[vdsdvsd]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="createWork()[pri:0, instance:automation.stagetech.testCases.TC004_CreateWork@5a39699c]" name="createWork" duration-ms="10196" started-at="2020-06-29T01:52:48Z" finished-at="2020-06-29T01:52:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginwithValidCredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="tearDown" is-config="true" duration-ms="755" started-at="2020-06-28T00:16:13Z" finished-at="2020-06-28T00:16:14Z">
+        </test-method> <!-- createWork -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.stagetech.testCases.TC004_CreateWork@5a39699c]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-06-29T01:52:58Z" finished-at="2020-06-29T01:52:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="setup" is-config="true" duration-ms="8130" started-at="2020-06-28T00:16:14Z" finished-at="2020-06-28T00:16:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginwithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="LoginwithValidCredentials" duration-ms="5331" started-at="2020-06-28T00:16:22Z" data-provider="LoginData" finished-at="2020-06-28T00:16:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[svsdvs]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[svsvsv]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginwithValidCredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="tearDown" is-config="true" duration-ms="1220" started-at="2020-06-28T00:16:28Z" finished-at="2020-06-28T00:16:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="setup" is-config="true" duration-ms="7974" started-at="2020-06-28T00:16:29Z" finished-at="2020-06-28T00:16:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginwithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="LoginwithValidCredentials" duration-ms="65611" started-at="2020-06-28T00:16:37Z" data-provider="LoginData" finished-at="2020-06-28T00:17:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[suraj.shinde@globalstep.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@008]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginwithValidCredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="tearDown" is-config="true" duration-ms="897" started-at="2020-06-28T00:17:42Z" finished-at="2020-06-28T00:17:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="setup" is-config="true" duration-ms="8140" started-at="2020-06-28T00:17:43Z" finished-at="2020-06-28T00:17:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginwithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="LoginwithValidCredentials" duration-ms="35064" started-at="2020-06-28T00:17:51Z" data-provider="LoginData" finished-at="2020-06-28T00:18:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[test@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Test@008]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginwithValidCredentials -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automation.stagetech.testCases.TC001_LoginTestCase@1d251891]" name="tearDown" is-config="true" duration-ms="750" started-at="2020-06-28T00:18:26Z" finished-at="2020-06-28T00:18:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- automation.stagetech.testCases.TC001_LoginTestCase -->
-    </test> <!-- Chrome Test -->
-  </suite> <!-- StageTech -->
+      </class> <!-- automation.stagetech.testCases.TC004_CreateWork -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
