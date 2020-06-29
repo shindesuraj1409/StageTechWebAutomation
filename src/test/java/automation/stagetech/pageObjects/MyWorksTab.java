@@ -80,10 +80,10 @@ public class MyWorksTab extends POM
 	@FindBy(xpath="//*[@id='root']/div/form/div/div[2]/div/div/div/div/div[4]/div/div/input") WebElement details_duration;
 	@FindBy(xpath="//*[@id='mui-component-select-musicalDistributionCategory']/div/div[1]") public WebElement details_Category;
 	//Jazz
-	@FindBy(xpath="//*[@id='menu-musicalDistributionCategory']/div[3]/ul/li[1]/div/div[1]") WebElement category_jazz;
-	@FindBy(xpath="//*[@id='menu-musicalDistributionCategory']/div[3]/ul/li[2]/div/div[1]") WebElement category_pop;
-	@FindBy(xpath="//*[@id='menu-musicalDistributionCategory']/div[3]/ul/li[3]/div/div[1]") WebElement category_serious;
-	@FindBy(xpath="//*[@id='menu-musicalDistributionCategory']/div[3]/ul/li[4]/div/div[1]") WebElement category_unclassified;
+	@FindBy(xpath="//*[@id='menu-musicalDistributionCategory']/div[3]/ul/li[1]/div") public WebElement category_jazz;
+	@FindBy(xpath="//*[@id='menu-musicalDistributionCategory']/div[3]/ul/li[2]/div") public WebElement category_pop;
+	@FindBy(xpath="//*[@id='menu-musicalDistributionCategory']/div[3]/ul/li[3]/div") public WebElement category_serious;
+	@FindBy(xpath="//*[@id='menu-musicalDistributionCategory']/div[3]/ul/li[4]/div") public WebElement category_unclassified;
 	
 	//First Release Date
 	@FindBy(xpath="//*[@id='root']/div/form/div/div[2]/div/div/div/div/div[6]/span/div/div/input") WebElement relaeseDate;
