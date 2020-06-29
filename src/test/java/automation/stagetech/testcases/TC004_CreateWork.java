@@ -41,8 +41,32 @@ public class TC004_CreateWork
 		hs.dashboard_myWorks.click();// Click My works tab
 		hs.dashboard_addButton.click();// Click add button to add work
 		mt.enterMyWorkTitle("MyTest Work");
-		mt.selectRole("Composer and Author");
+		//mt.selectRole("Composer and Author");
+		System.out.println(mt.partyName.getText());
+		System.out.println(mt.partyIPINumber.getText());
+		mt.addPublisher.click();
+		mt.enterPublishertoSearch("Tom");
+		mt.enterPRShare("20.5");
+		mt.enterMRShare("30.5");
+		//mt.leaveWorkMenu.click();
+		//mt.leaveWork.click();
+		mt.showScope.click();
+		mt.hideScope.click();
+		mt.prShareEvenbutton.click();
+		mt.mrShareEvenButton.click();
+		System.out.println(mt.prShareTotal.getText());
+		System.out.println(mt.mrShareTotal.getText());
+		mt.detailsTab.click();
+		mt.enterAlternativeText("Test2");
+		mt.enterDuration("05:00");
+		mt.selectCategory("Serious");
+		mt.enterFirstReleaseDate("06/29/2020");
+		mt.recodedRadioUnknown.click();
+		mt.grandRightsRadioYes.click();
+		mt.firstRecodingRefusalYes.click();
+		
 	}
+	
 
 	@AfterMethod
 	public void tearDown()
