@@ -17,7 +17,7 @@ public class LoginScreen extends POM
 	@FindBy(css="svg.MuiSvgIcon-root") WebElement view_password;
 	@FindBy(xpath="//span[@class='MuiTypography-root MuiFormControlLabel-label MuiTypography-body1']") WebElement remember_field;
 	@FindBy(xpath="//a[@class='MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary']") WebElement forgot_password;
-	@FindBy(linkText="Sign Up") WebElement signUp;
+	@FindBy(xpath="//*[@id='root']/div/main/div/form/div[3]/div[2]/a") WebElement signUp;
 	@FindBy(xpath="//p[@class='MuiFormHelperText-root MuiFormHelperText-contained Mui-error' and text()='Please enter your email address']") public WebElement email_error;
 	@FindBy(xpath="//p[@class='MuiFormHelperText-root MuiFormHelperText-contained Mui-error' and text()='Please enter your password']") public WebElement password_error;
 	//Action methods

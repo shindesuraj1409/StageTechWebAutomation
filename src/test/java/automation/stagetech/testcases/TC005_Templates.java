@@ -13,7 +13,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import automation.stagetech.pageObjects.HomeScreen;
+import automation.stagetech.pageObjects.LoginScreen;
 import automation.stagetech.pageObjects.MyWorksTab;
+import automation.stagetech.pageObjects.SignUpScreen;
 import automation.stagetech.pageObjects.TemplatesScreen;
 import automation.stagetech.utilities.Commons;
 
@@ -41,23 +43,13 @@ public class TC005_Templates
 	{
 		HomeScreen hs= new HomeScreen(driver);
 		TemplatesScreen ts= new TemplatesScreen(driver);
-		Commons.LogintoSite("suraj.shinde@globalstep.com", "Test@008", driver);
-		Thread.sleep(4000);
-		hs.dashboard_drafts.click();
-		List<WebElement> drafts=driver.findElements(By.xpath("//*[@id='root']/div/div[2]/div/div/div/ul/div"));
+		LoginScreen ls= new LoginScreen(driver);
+		SignUpScreen ss= new SignUpScreen(driver);
+		Thread.sleep(3000);
+		ls.click_signUp();
+		ss.signupCreator.click();
+		//ss.signupCreator.click();
 		
-		int totalDrafts=drafts.size();
-		//*[@id="root"]/div/div[2]/div/div/div/ul/div[1]
-		//driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div/div/div/ul/div[1]/div/div[6]")).click();
-		for(int i=1;i<=totalDrafts;i++)
-		{
-			System.out.println(driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div/div/div/ul/div["+i+"]/div/div[2]/div/span")).getText());
-			driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div/div/div/ul/div["+i+"]/div/div[6]")).click();
-			//driver.findElement(By.xpath("//*[@id='root']/div/div[2]/div/div/div/ul/div["+i+"]/div/div[6]")).click();
-			
-		}
-		
-		System.out.println(totalDrafts);
 	}
 
 
